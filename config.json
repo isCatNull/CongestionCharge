@@ -1,0 +1,166 @@
+{
+  "vehicles": [
+    {
+      "type": "Car",
+      "charges": [
+        {
+          "name": "Night",
+          "applicableOn": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "from": "19:00:00",
+          "to": "07:00:00",
+          "ratePerHour": 0.00
+        },
+        {
+          "name": "AM",
+          "applicableOn": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "from": "07:00:00",
+          "to": "12:00:00",
+          "ratePerHour": 2.00
+        },
+        {
+          "name": "PM",
+          "applicableOn": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "from": "12:00:00",
+          "to": "19:00:00",
+          "ratePerHour": 2.50
+        },
+        {
+          "name": "Weekend",
+          "applicableOn": [
+            "Saturday",
+            "Sunday"
+          ],
+          "from": "00:00:00",
+          "to": "00:00:00",
+          "ratePerHour": 0.00
+        }
+      ]
+    },
+    {
+      "type": "Motorbike",
+      "charges": [
+        {
+          "name": "Night",
+          "applicableOn": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "from": "19:00:00",
+          "to": "07:00:00",
+          "ratePerHour": 0.00
+        },
+        {
+          "name": "AM",
+          "applicableOn": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "from": "07:00:00",
+          "to": "12:00:00",
+          "ratePerHour": 1.00
+        },
+        {
+          "name": "PM",
+          "applicableOn": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "from": "12:00:00",
+          "to": "19:00:00",
+          "ratePerHour": 1.00
+        },
+        {
+          "name": "Weekend",
+          "applicableOn": [
+            "Saturday",
+            "Sunday"
+          ],
+          "from": "00:00:00",
+          "to": "00:00:00",
+          "ratePerHour": 0.00
+        }
+      ]
+    },
+    {
+      "type": "Van",
+      "charges": [
+        {
+          "name": "Night",
+          "applicableOn": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "from": "19:00:00",
+          "to": "07:00:00",
+          "ratePerHour": 0.00
+        },
+        {
+          "name": "AM",
+          "applicableOn": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "from": "07:00:00",
+          "to": "12:00:00",
+          "ratePerHour": 2.00
+        },
+        {
+          "name": "PM",
+          "applicableOn": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "from": "12:00:00",
+          "to": "19:00:00",
+          "ratePerHour": 2.50
+        },
+        {
+          "name": "Weekend",
+          "applicableOn": [
+            "Saturday",
+            "Sunday"
+          ],
+          "from": "00:00:00",
+          "to": "00:00:00",
+          "ratePerHour": 0.00
+        }
+      ]
+    }
+  ]
+}
